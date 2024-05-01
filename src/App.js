@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import TaskListInterface from './components/TaskListInterface'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>Todo list</h1>
+     <TaskListInterface />
     </div>
   );
 }
