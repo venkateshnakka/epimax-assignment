@@ -21,8 +21,8 @@ const TaskListInterface = () => {
   };
 
   return (
-    <div className=''>
-        <h1>TO Do List</h1>
+    <div>
+        <h1>To Do List</h1>
       <input
         type="text"
         value={taskName}
